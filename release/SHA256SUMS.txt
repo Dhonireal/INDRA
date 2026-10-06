@@ -1,0 +1,2 @@
+﻿663ef2b73347d3c0bba3777fc1797d0ffbb3ccb0ba11a98fc76b3206edc00646  VisionPilot-0.1.0-portable.zip
+aee0c21bad6e7011ae3fd1c20c5490b497c98ea6e87d1583ead470e1224e4e17  VisionPilot-Setup-0.1.0.exe

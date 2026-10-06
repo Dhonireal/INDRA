@@ -1,0 +1,36 @@
+# VisionPilot Core Dependencies
+# UI Framework
+PySide6>=6.6.0
+
+# Testing
+pytest>=8.0.0
+
+# Windows Subsystem & Automation
+pywin32>=306
+
+# Computer Vision & Image Processing
+Pillow>=10.0.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# Document & File Handling
+pypdf>=4.0.0
+
+# Audio & Speech (Phase 4)
+SpeechRecognition>=3.10.0
+
+# Windows Accessibility & UI Automation (Phase 5)
+uiautomation>=2.0.28
+comtypes>=1.4.0
+
+# Windows Native OCR WinRT Projections (Phase 5)
+winrt-runtime>=3.2.1
+winrt-Windows.Media.Ocr>=3.2.1
+winrt-Windows.Graphics.Imaging>=3.2.1
+winrt-Windows.Storage.Streams>=3.2.1
+winrt-Windows.Foundation>=3.2.1
+winrt-Windows.Foundation.Collections>=3.2.1
+winrt-Windows.Globalization>=3.2.1
+
+# Hardware & Machine Learning (Optional/Runtime)
+# onnxruntime>=1.18.0

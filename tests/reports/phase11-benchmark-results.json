@@ -1,0 +1,72 @@
+[
+  {
+    "workload": "Planner (Decomposition)",
+    "provider": "LocalReasoningEngine (Local-First Heuristic)",
+    "device": "CPU (Snapdragon X / ARM64 via Prism)",
+    "sample_count": 20,
+    "warmup_count": 3,
+    "min_ms": 100.178,
+    "max_ms": 133.481,
+    "mean_ms": 115.133,
+    "median_ms": 112.994,
+    "p50_ms": 112.994,
+    "p95_ms": 130.723,
+    "std_dev_ms": 8.647
+  },
+  {
+    "workload": "Action Executor (File Operations)",
+    "provider": "FileActionExecutor (Windows OS IO)",
+    "device": "NVMe SSD / OS File System",
+    "sample_count": 20,
+    "warmup_count": 3,
+    "min_ms": 0.459,
+    "max_ms": 0.781,
+    "mean_ms": 0.518,
+    "median_ms": 0.481,
+    "p50_ms": 0.481,
+    "p95_ms": 0.626,
+    "std_dev_ms": 0.079
+  },
+  {
+    "workload": "Verification Engine (File Existence)",
+    "provider": "FileExistsVerifier (OS Stat)",
+    "device": "NVMe SSD / OS File System",
+    "sample_count": 20,
+    "warmup_count": 3,
+    "min_ms": 112.886,
+    "max_ms": 166.627,
+    "mean_ms": 126.24,
+    "median_ms": 119.854,
+    "p50_ms": 119.854,
+    "p95_ms": 159.738,
+    "std_dev_ms": 15.295
+  },
+  {
+    "workload": "Task History Persistence (Insert/Update)",
+    "provider": "SQLite WAL (Transactional)",
+    "device": "Local Storage",
+    "sample_count": 20,
+    "warmup_count": 0,
+    "min_ms": 2.186,
+    "max_ms": 3.1,
+    "mean_ms": 2.519,
+    "median_ms": 2.454,
+    "p50_ms": 2.454,
+    "p95_ms": 3.02,
+    "std_dev_ms": 0.252
+  },
+  {
+    "workload": "Task History Query (Search & Filter)",
+    "provider": "SQLite B-Tree Index",
+    "device": "Local Storage",
+    "sample_count": 20,
+    "warmup_count": 0,
+    "min_ms": 0.536,
+    "max_ms": 0.739,
+    "mean_ms": 0.56,
+    "median_ms": 0.547,
+    "p50_ms": 0.547,
+    "p95_ms": 0.608,
+    "std_dev_ms": 0.045
+  }
+]

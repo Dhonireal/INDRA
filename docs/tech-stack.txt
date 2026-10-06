@@ -1,0 +1,67 @@
+
+# VisionPilot — Technology Stack
+
+## 1. Platform
+
+Target:
+
+- Windows 11
+- Snapdragon AI PCs
+- Snapdragon-powered HP PCs as challenge-oriented target platform
+
+Development can initially be performed on an available Snapdragon Windows laptop.
+
+---
+
+# 2. Programming Language
+
+## Python
+
+Primary language for:
+
+- AI orchestration
+- Voice processing
+- Computer vision
+- OCR
+- Task planning
+- Automation
+- Backend logic
+- Testing
+
+Reason:
+
+Python has a mature ecosystem for AI, computer vision, speech processing, automation, and model runtimes.
+
+---
+
+# 3. Desktop UI
+
+Recommended:
+
+## PySide6
+
+Use PySide6 for:
+
+- Main application window
+- Command interface
+- Task progress
+- Settings
+- Confirmation dialogs
+- System tray integration
+
+Alternative desktop UI technologies should not be introduced unless there is a clear technical reason.
+
+---
+
+# 4. Voice
+
+Architecture:
+
+```text
+Microphone
+    ↓
+Audio Capture
+    ↓
+Speech-to-Text
+    ↓
+Command Text

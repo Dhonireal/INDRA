@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+release/*.exe
+release/*.zip
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database & logs
+*.db
+*.sqlite3
+logs/
+*.log
+
+# Sensitive environment variables
+.env
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Application scratch files
+scratch/
+models/*.onnx
+models/*.bin
